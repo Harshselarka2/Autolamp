@@ -17,3 +17,6 @@ COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 # Start Laravel dev server
 CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=8000"]
 
+
+ this is added for cerating error :wq
+
